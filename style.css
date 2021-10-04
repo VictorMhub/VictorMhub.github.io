@@ -1,0 +1,28 @@
+#description{
+    color: plum
+}
+
+body{
+    background-color: rgb(57, 68, 68);
+}
+
+.list-style{
+    background-color:rgb(48, 63, 63) ;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+h1{
+    color: black;
+    font-family: sans-serif;
+}
+#name{
+font-family: sans-serif;
+}
+
+h3{
+ font-family: sans-serif;
+}
