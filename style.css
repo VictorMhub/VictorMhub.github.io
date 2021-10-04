@@ -40,5 +40,11 @@ h4 {
 }
 
 .em-style{
-    color: #e09be8
+    color: #e09be8;
+}
+
+.paragrafos{
+    width: 80%;
+    height: 300px;
+    overflow: auto;
 }
