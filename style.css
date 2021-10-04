@@ -1,14 +1,14 @@
 #description{
-    color: plum
+    color: #E09BE8
 }
 
 body{
-    background-color: rgb(57, 68, 68);
+    background-color: #18081A;
 }
 
 .list-style{
-    background-color:rgb(48, 63, 63) ;
-    color: white;
+    background-color: #331F36 ;
+    color: #E09BE8;
     font-style: italic;
     font-weight: bold;
     font-size: 14px;
@@ -16,13 +16,16 @@ body{
 }
 
 h1{
-    color: black;
+    color:#E09BE8;
     font-family: sans-serif;
 }
 #name{
 font-family: sans-serif;
+color:#E09BE8;
 }
+
 
 h3{
  font-family: sans-serif;
+ color: #E09BE8
 }
