@@ -18,10 +18,13 @@ body{
 h1{
     color:#E09BE8;
     font-family: sans-serif;
+    text-align: center;
 }
 #name{
 font-family: sans-serif;
 color:#E09BE8;
+text-align: center;
+line-height: 35px;
 }
 
 
