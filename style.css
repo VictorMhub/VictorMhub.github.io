@@ -4,7 +4,6 @@ body {
 }
 
 .list-style {
-  background-color: #331f36;
   color: #e09be8;
   font-style: italic;
   font-weight: bold;
@@ -16,6 +15,9 @@ h1 {
   color: #e09be8;
   font-family: sans-serif;
   text-align: center;
+  position: absolute;
+  z-index: 2;
+  left: 250px;
 }
 #name {
   font-family: sans-serif;
@@ -23,11 +25,15 @@ h1 {
   text-align: center;
   line-height: 35px;
   margin-bottom: 20px;
+  z-index: 4;
 }
 
 h3 {
   font-family: sans-serif;
   color: #e09be8;
+  position:absolute;
+  z-index: 7;
+  top: 500px;
 }
 
 .link-style {
@@ -47,4 +53,35 @@ h4 {
     width: 80%;
     height: 300px;
     overflow: auto;
+}
+#purple-moon{
+  position: absolute;
+  width: auto;
+  z-index: 1;
+  
+}
+
+#indice-list{
+  position: absolute;
+  z-index: 3;
+}
+
+#foto-feliz{
+  position: absolute;
+  z-index: 5;
+  top: 180px;
+  left: 10px;
+}
+
+#description{
+  position: absolute;
+  z-index: 6;
+  top: 350px;
+
+}
+
+#skill-list{
+  position: absolute;
+  z-index: 7;
+  top: 550px;
 }
