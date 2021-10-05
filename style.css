@@ -80,6 +80,8 @@ h4,
   position: absolute;
   z-index: 6;
   top: 350px;
+  margin: auto;
+  left: 10px
 }
 
 #skill-list {
