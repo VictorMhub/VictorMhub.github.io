@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-color: #18081a;
@@ -15,23 +19,22 @@ h1 {
   color: #e09be8;
   font-family: sans-serif;
   text-align: center;
-  position: absolute;
   z-index: 2;
   left: 250px;
 }
 #name {
   font-family: sans-serif;
   color: #e09be8;
-  text-align: center;
-  line-height: 35px;
-  margin-bottom: 20px;
-  z-index: 4;
+  position: absolute;
+  top: 140px;
+  left: 20px;
+  
 }
 
 h3 {
   font-family: sans-serif;
   color: #e09be8;
-  position:absolute;
+  position: absolute;
   z-index: 7;
   top: 500px;
 }
@@ -41,47 +44,56 @@ h3 {
   color: #e09be8;
 }
 
-h4 {
+h4,
+.em-style {
   color: #e09be8;
 }
 
-.em-style{
-    color: #e09be8;
+.paragrafos {
+  width: 80%;
+  height: 300px;
+  overflow: auto;
 }
-
-.paragrafos{
-    width: 80%;
-    height: 300px;
-    overflow: auto;
-}
-#purple-moon{
+#purple-moon {
   position: absolute;
   width: auto;
   z-index: 1;
-  
 }
 
-#indice-list{
+#indice-list {
   position: absolute;
   z-index: 3;
+  left: 30px;
+  top: 50px;
+
 }
 
-#foto-feliz{
+#foto-feliz {
   position: absolute;
   z-index: 5;
   top: 180px;
   left: 10px;
+  border-radius: 50%;
 }
 
-#description{
+#description {
   position: absolute;
   z-index: 6;
   top: 350px;
-
 }
 
-#skill-list{
+#skill-list {
   position: absolute;
   z-index: 7;
-  top: 550px;
+  top: 540px;
+  left: 45px;
+}
+
+.header{
+  background-image: url(background2.jpeg);
+  background-size: cover;
+}
+
+#skill-indice{
+  left: 10px;
 }
