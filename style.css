@@ -1,28 +1,26 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 body {
   font-size: 16px;
-}  
+}
 
-.header-container{
+.header-container {
   display: flex;
-  background-color:#1E6091;
+  background-color: #1e6091;
   height: 400px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  color: #B5E48C
+  color: #b5e48c;
 }
 
-
-.title{
-  font-family: 'Montserrat', sans-serif;
-  color: #B5E48C;
+.title {
+  font-family: "Montserrat", sans-serif;
+  color: #b5e48c;
   font-size: 45px;
 }
 
@@ -32,26 +30,24 @@ body {
   width: 230px;
 }
 
-.header-nav a{
-    text-decoration: none;
-    padding-top:30px;
-    font-size: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
-    opacity: 0.7;
-    justify-content: space-between;
-  }
+.header-nav a {
+  text-decoration: none;
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  opacity: 0.7;
+  justify-content: space-between;
+}
 
-
-.header-nav{
+.header-nav {
   display: flex;
   justify-content: space-between;
   width: 400px;
-
 }
 
-.header-nav i{
+.header-nav i {
   font-size: 30px;
-  color: #B5E48C;
+  color: #b5e48c;
 }
 
 a:visited,
