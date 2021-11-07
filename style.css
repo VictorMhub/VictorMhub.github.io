@@ -1,125 +1,58 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #18081a;
-  
+  font-size: 16px;
 }
 
-.list-style  {
-  color: #e09be8;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 30px;
+.header-container {
+  display: flex;
+  background-color: #1e6091;
+  height: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #b5e48c;
 }
 
-h1 {
-  color: #e09be8;
-  font-family: sans-serif;
-  text-align: center;
-  z-index: 2;
-  left: 250px;
-}
-#name {
-  font-family: sans-serif;
-  color: #e09be8;
-  position: absolute;
-  top: 140px;
-  left: 20px;
-  
+.title {
+  font-family: "Montserrat", sans-serif;
+  color: #b5e48c;
+  font-size: 45px;
 }
 
-h3 {
-  font-family: sans-serif;
-  color: #e09be8;
-  position: absolute;
-  z-index: 7;
-  top: 500px;
-}
-
-.link-style{
-    text-decoration: none;
-    color: #e09be8;
-    border: 0px solid #5E4161; 
-    background: #5E4161;
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    border-radius:5px;
-    font-size: 20px;
-    padding: 5px 10px; 
-    font-family: sans-serif;
-    position: relative;
-    text-align: center;
-    top: 245px;
-    
-  }
-
-
-.indice-list-style {
-  margin: 10px;
-  display: inline;
-}
-
-
-
-a:hover{
-  font-size: 22px;
-}
-
-.em-style {
-  color: #e09be8;
-  width: auto;
-}
-
-.paragrafos {
-  width: 80%;
-  height: 300px;
-  overflow: auto;
-}
-
-#indice-list {
-  position:relative;
-  top: 50px;
-  right:500px;
-  float:right;
-}
-
-#foto-feliz {
-  position: absolute;
-  z-index: 5;
-  top: 180px;
-  left: 10px;
+.header-container img {
+  display: flex;
   border-radius: 50%;
+  width: 230px;
 }
 
-#description {
-  position:fixed;
-  z-index: 6;
-  top: 360px;
-  margin: auto;
-  left: 10px;
-  width: 330px;
-  font-size: 18px;
+.header-nav a {
+  text-decoration: none;
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  opacity: 0.7;
+  justify-content: space-between;
 }
 
-#skill-list {
-  position: absolute;
-  z-index: 7;
-  top: 540px;
-  left: 45px;
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
 }
 
-.header{
-  background-image: url(background2.jpeg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 0px;
+.header-nav i {
+  font-size: 30px;
+  color: #b5e48c;
 }
 
-
-#skill-indice{
-  left: 10px;
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  opacity: 1;
 }
